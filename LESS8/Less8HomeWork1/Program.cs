@@ -56,7 +56,7 @@ void PrintMatrix(int[,] matrixparam)
     {
         for (int j = 0; j < N; j++)
         {
-            Console.Write($"{matrix[i, j]:D2}");
+            Console.Write($"{matrixparam[i, j]:D2}");
             Console.Write($"   ");
         }
         Console.WriteLine();
